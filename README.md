@@ -32,7 +32,7 @@ pip install -r requirements.txt
 # 3) Start the app
 python app.py
 ```
-Now open **[http://localhost:5000](https://harassment-detector2.onrender.com)** in two browser windows/tabs.
+Now open **(https://harassment-detector2.onrender.com)** in two browser windows/tabs.
 - In one, login as `Alice`
 - In the other, login as `Bob`
 - Pick each other from the user list and start chatting
