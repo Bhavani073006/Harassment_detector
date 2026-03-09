@@ -107,6 +107,5 @@ def handle_unblock_user(data):
     blocks.setdefault(me, set()).discard(who)
     emit("system", {"msg": f"You have unblocked {who}."}, room=request.sid)
 
-if __name__=="__main__":
-    # Use default port 5000 for simplicity
-    socketio.run(app, host="127.0.0.1", port=5000, debug=True)
+if __name__ == "__main__":
+    socketio.run(app, host="0.0.0.0", port=10000)
